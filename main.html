@@ -7,6 +7,25 @@
 </head>
 
 <body>
+	<h2>Feedback Form</h2>
+
+<form action="#" method="POST">
+
+    <label for="name">Name<span>*</span></label>
+    <input type="text" id="name" name="name" minlength="3" maxlength="50" required placeholder="Name">
+
+    <label for="portfolio">Portfolio URL<span>*</span></label>
+    <input type="url" id="portfolio" name="portfolio" required placeholder="Portfolio URL">
+
+    <label for="favColor">Favorite Color<span>*</span></label>
+    <input type="color" id="favColor" name="favColor" required>
+
+    <label for="likeness">Likeness (1-100)<span>*</span></label>
+    <input type="range" id="likeness" name="likeness" min="1" max="100" required>
+
+    <input type="submit" value="Submit">
+
+</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
